@@ -1,0 +1,112 @@
+
+/*=== Ipad pro Media ===*/
+@media (max-width:1030px){
+    /*=== Header Section ===*/
+    .header .navbar-nav a.nav-link{
+        padding:0.8rem 1rem;
+    }
+    .infobox{
+        margin-bottom:1.3rem;
+    }
+    /*=== Banner Section ===*/
+    .banner_content h1{
+        font-size: 3rem;
+    }
+    .effect{
+        margin-top: 5rem;
+    }
+     .start{
+        margin-top: 5rem;
+    }
+    /*=== About Section ===*/
+    .about_company{
+        margin-bottom:1.2rem;
+    }
+
+    /*=== client Section ====*/
+    .client_box{
+        padding:2rem;
+    }
+    .client_text p{
+        margin:2.5rem 0;
+    }
+}
+
+/*=== Ipad Media ===*/
+@media (max-width:992px){   
+    /*=== Mobile Menu icon ===*/
+    .menu-toggle{
+        position: relative;
+    }
+    .menu-toggle span{
+        width:2rem;
+        height:0.2rem;
+        display:block;
+        background-color: red;
+        margin:0.35rem;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    .menu-toggle.active span:nth-child(1){
+        transform:rotate(45deg);
+        position:relative;
+        top:0.2rem;
+    }
+    .menu-toggle.active span:nth-child(2){
+         display:none;
+    }
+    .menu-toggle.active span:nth-child(3){
+        transform:rotate(-45deg);
+        position:relative;
+        top:-0.3rem;
+    }
+    #navbarNav ul{
+        text-align: center;
+    }
+      /*=== About Section ===*/
+      .about_company{
+        margin-bottom:1.2rem;
+    }
+
+    /*=== client Section ====*/
+    .client_box{
+        padding:1rem 0;
+        margin-top:5.2rem;
+    } 
+}
+
+@media (max-width:767px){
+
+    /*Header Section */
+    .header .navbar{
+        padding: 0.5rem 0;
+    }
+    .bg-hero{
+        background-size:125%;
+        background-repeat: no-repeat;
+        background-position: 25% 15%; 
+    }
+    .underline{
+        max-width: 20%;
+    }
+    .banner_content h2{
+ font-size:2.5rem;
+ width:100%;
+    }
+      /*=== About Section ===*/
+      .about_company{
+        min-height:400px;
+    }
+}
+
+.client_box .section_headline h2{
+    font-size:2rem;
+}
+.client_text p{
+    font-size:1rem;
+}
+
+    /*=== Footer section ===*/
+    .footer-widget{
+        margin-top:2rem;
+    }
