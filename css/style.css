@@ -17,7 +17,7 @@
 :root {
     --primary-color: black;
     --secondary-color: #ff661a; 
-    --third-color:#009933;
+    --third-color:#5cd65c;
     --four-color:#fff;
     --text-color:#fff;
 }
@@ -199,10 +199,12 @@ ul, ol{
 }
 .banner_content h1{
     color:var(--text-color);
-    font-size:5rem;
-    font-weight:200;
-    line-height: 1.5;
-    width:55%;
+     
+    width:47%;
+}
+span{
+   
+    font-size: 1rem;
 }
 .main-btn{
     position: relative;
@@ -251,7 +253,7 @@ left:0;
     color:var(--text-color);
 }
 .bg-hero{
-    background-image:url('./../images/img2.jpg');
+  
     background-position: 500px;
     min-height:100px;
     background-size:contain;
@@ -260,7 +262,8 @@ left:0;
 .underline{
     max-width:6%;
     border-bottom:0.10rem solid var(--secondary-color);
-    margin-bottom: 2px;
+    margin-top:13%;
+    margin-bottom: 2%;
 }
 /*-- Infobox --*/
 .infobox{
@@ -285,6 +288,8 @@ left:0;
 .infobox.active .infobox-icon{
     color:var(--text-color);
 }
+
+
 .infobox .infobox-icon{
     font-size: 3rem;
     color:var(--secondary-color);
